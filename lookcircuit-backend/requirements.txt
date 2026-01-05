@@ -1,0 +1,19 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.6.0
+pydantic-settings==2.1.0
+sqlalchemy==2.0.25
+alembic==1.13.1
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+supabase==2.3.0
+httpx==0.26.0
+pytest==8.0.0
+mediapipe==0.10.9
+numpy==1.26.3
+opencv-python-headless==4.9.0.80
+# torch will be installed separately relative to CUDA version if needed, 
+# for now standard cpu version is fine via pip
+torch==2.2.0
+torchvision==0.17.0
